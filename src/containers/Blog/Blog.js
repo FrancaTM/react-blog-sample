@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 import Post from "../../components/Post/Post";
-import Post from "../../components/FullPost/FullPost";
-import Post from "../../components/NewPost/NewPost";
+import FullPost from "../../components/FullPost/FullPost";
+import NewPost from "../../components/NewPost/NewPost";
 import "./Blog.css";
 
 class Blog extends Component {
