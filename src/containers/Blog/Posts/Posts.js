@@ -45,6 +45,8 @@ class Posts extends Component {
             title={post.title}
             author={post.author}
             clicked={() => this.postSelectedHandler(post.id)}
+            // {...this.props}
+            // match={this.props.match}
           />
         );
       });
