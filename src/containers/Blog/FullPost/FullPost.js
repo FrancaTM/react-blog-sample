@@ -3,7 +3,7 @@ import axios from "axios";
 
 import "./FullPost.css";
 
-class FullPost extends Component {
+class FullPost extends Component { 
   state = {
     loadedPost: null
   };
